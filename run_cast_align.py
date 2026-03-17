@@ -277,7 +277,7 @@ def run_alignment(adata_ref, adata_mov, out_dir: str, tag: str):
         coords_raw=coords_raw_t,
         embed_dict=embed_dict,
         output_path=out_dir,
-        graph_list=["mov", "ref"],   # mov -> ref
+        graph_list=["mov", "ref"],   
         params_dist=params_dist,
         early_stop_thres=1e-5,
         renew_mesh_trans=False,
